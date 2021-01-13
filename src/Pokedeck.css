@@ -1,0 +1,14 @@
+.Pokedeck {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pokedeck-gameinfo {
+    text-align: center;
+}
+
+#Pokedeck-winner {
+    color: green;
+}

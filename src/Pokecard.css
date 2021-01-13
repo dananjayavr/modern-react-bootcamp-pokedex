@@ -1,0 +1,19 @@
+.Pokecard {
+    background-color: gainsboro;
+    padding: 2px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#Pokecard-name {
+    color: blue;
+}
+
+#Pokecard-img {
+    transition: transform .2s; /* Animation */
+}
+#Pokecard-img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
