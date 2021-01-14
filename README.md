@@ -4,6 +4,8 @@ Will render a pokemon application (a “pokedex”) that displays an interface t
 
 ![Pokedex Screenshot](https://imgur.com/6LXfy2H.png)
 
+Card decks are dynamically updated and its total experience is calculated to declare a winner.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
