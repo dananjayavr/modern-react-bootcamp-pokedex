@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { drawRandomDeck } from './helpers'
 import Pokedeck from './Pokedeck'
-import './Pokegame.css'
 
 class Pokegame extends Component {
     render() {

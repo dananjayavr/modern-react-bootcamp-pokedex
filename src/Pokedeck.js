@@ -9,13 +9,13 @@ class Pokedeck extends Component {
             <div>
                 < div className="Pokedeck">
                     {
-                        pokemon.map(d => <Pokecard id={d.id} name={d.name} type={d.type} base_experience={d.base_experience} />)
+                        pokemon.map(d => <Pokecard id={d.id} name={d.name} type={d.type} base_experience={d.base_experience} key={d.id}/>)
                     }
                 </div>
                 <div className="Pokedeck-gameinfo">
                     <h3 >Total Experience: {total_experience}</h3>
                     {
-                        isWinner ? <h3 id="Pokedeck-winner">THIS HAND WINS!</h3> : <h3></h3>
+                        isWinner ? <h3 id="Pokedeck-winner">THIS HAND WINS!</h3> : ""
                     }
                 </div>
             </div>

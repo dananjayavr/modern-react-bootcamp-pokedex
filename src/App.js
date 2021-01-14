@@ -1,5 +1,4 @@
 import './App.css';
-import Pokedeck from './Pokedeck'
 import Pokegame from './Pokegame'
 
 function App() {
